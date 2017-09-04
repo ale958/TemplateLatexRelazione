@@ -1,0 +1,19 @@
+\section{Scopo del progetto}
+Il progetto realizzato ha il fine della creazione di un'applicazione semplice per la gestione del personale e dei tavoli all'interno di un ristorante/pub, dando alle diverse categorie di utente permessi differenti.
+
+Gli utenti si dividono in: admin, cuochi e camerieri.
+I tavoli possono essere di tipo pub oppure ristorante.
+Le consumazioni possono avere tipo bar oppure cucina.
+Ogni tavolo può avere delle consumazioni, inserite dall'utente admin o dai camerieri.
+La creazione di nuovi tavoli e degli utenti è riservata all'utente admin, il quale può anche cambiare i dati personali dei camerieri, dei cuochi e di se stesso.
+
+Ogni utente può però cambiare i proprio dati personali.
+
+\section{Compilazione ed esecuzione}
+Per compilare il progetto è necessario posizionarsi all'interno della cartella dello stesso, eseguire il comando \textbf{qmake -makefile}, eseguire il comando \textbf{make} e successivamente \textbf{./Ristorante}.
+Vengono consegnati anche due file, databaseutenti.xml e databasetavoli.xml, contenenti dei dati esempio.
+Nel caso in cui venissero cancellati è previsto che si crei il file denominato databaseutenti.xml con all'interno un utente amministratore con le credenziali di accesso:
+\begin{itemize}
+\item \textbf{username}: admin
+\item \textbf{password}: admin
+\end{itemize}	
